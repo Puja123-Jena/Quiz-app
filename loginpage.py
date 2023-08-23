@@ -3,7 +3,7 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
 win=Tk()
-img=ImageTk.PhotoImage(Image.open("C:\\Users\\91720\\Desktop\\B.jpg"))
+img=ImageTk.PhotoImage(Image.open("B.jpg"))
 lable=Label(image=img)
 lable.pack()
 
@@ -38,7 +38,7 @@ def newUser():
 	#conobj.close()
 	win.destroy()
 	win1=Tk()
-	img1=ImageTk.PhotoImage(Image.open("C:\\Users\\91720\\Desktop\\B.jpg"))
+	img1=ImageTk.PhotoImage(Image.open("B.jpg"))
 	lable1=Label(image=img1)
 	lable1.pack()
 
