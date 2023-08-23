@@ -8,7 +8,7 @@ import json
   
 # Creating a GUI Window  
 guiWindow = Tk() 
-photo=ImageTk.PhotoImage(Image.open("C:\\Users\\91720\\Desktop\\B.jpg"))
+photo=ImageTk.PhotoImage(Image.open("B.jpg"))
 lable=Label(image=photo)
 lable.pack() 
    
